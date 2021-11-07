@@ -5,23 +5,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/3ce681a2e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-
-    </nav>
-    
-    <div class="hero">
-        <div class="hero-body">
-
+    <nav class="navbar is-fixed-top is-info is-spaced has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+                <figure class="image is-96x96">
+                    <img class="is-rounded is-full-width" src="assets/images/avatar.png" alt="">
+                </figure>
         </div>
-    </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item has-text-weight-bold ml-4 bl-4" href="#about">
+                About Me
+              </a>
+              <a class="navbar-item has-text-weight-bold" href="#work">
+                My Work
+              </a>
+              <a class="navbar-item has-text-weight-bold" href="#contact">
+                Contact Me
+              </a>
+            </div>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field is-grouped">
+                    <p class="control">
+                    <a class="button is-primary" href="">
+                        <span class="icon">
+                            <i class="fas fa-download"></i>
+                        </span>
+                        <span>Resume</span>
+                    </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <section class="section">
-
+        <container class="container">
+        </container>
     </section>
+    <section class="section has-background-dark has-text-light">
+        <container class="container">
+            <div class="content has-background-dark has-text-light">
+                <h2 id="about" class="title has-text-centered py-3 has-background-dark has-text-light">About Me</h2>
+                <p class="has-text-weight-medium">
+                    Hello, my name is Jeff Korby and it is a pleasure to have you here! I am a full stack web developer based out of Northville, MI. My previous work experience was working in the durable medical devices field. I was in multiple roles during my tenure there and gained sales, management and operations skills. I also assisted with website/CRM implementation from the other side working with the people builing the website out for my company. 
+                </p>
+                <br>
+                <p class="has-text-weight-medium">
+                    Some of my hobbies include golfing, board games, video games, books/audiobooks, and coding. I like spending time with my family, friends and of course my dog Chase! Chase is a German Shepard who is very lovable and loves to cuddle. My favorite authors are JRR Tolkien who is best known for The Hobbit and Lord of the Rings. And also there is a current author named Brandon Sanderson who wrote books such as Mistborn and the Stormlight Archives. My favorite board game is called Dominion and some video games I currently like are called Smite by HiRez studios and Hades by Supergiant Games. 
+                </p>
+            </div>
+        </container>
+    </section>
+    <section class="section has-background-dark has-text-light">
+        <container class="container is-centered">
+            <div class="content is-centered">
+                <h2 id="work" class="title has-text-centered has-text-light">My Work</h2>
+                <div class="columns is-centered">
+                    <div class="card column is-centered is-three-quarters">
+                        <div class="card-header">
+                            <p class="card-header-title is-centered">
+                                COMIC CALL
+                            </p>
+                        </div>
+                        <div class="card-image content content-is-centered">
+                            <figure class="image is-128x128 is-centered mt-5">
+                                <a href="https://jeffkorby.github.io/comic-call/" class="comic-call"></a>
+                                <img src="./assets/images/capamericamc2_442.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="card-content is-centered">
+                            <div class="content is-centered">
+                                First collaborative project worked on. Uses an API call to Marvel API and Wikipedia to get information on your favorite Marvel superheroes based on your search criteria.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://jeffkorby.github.io/comic-call/" class="comic-call">DEPLOYED COMIC CALL APP</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="columns is-centered">
+                    <div class="card column is-centered is-half">
+                        <div class="card-header">
+                            <p class="card-header-title is-centered">
+                                PASSWORD GENERATOR
+                            </p>
+                        </div>
+                        <div class="card-image content content-is-centered align-content-center">
+                            <figure class="image is square is-128x128 content align-content-center mt-5">
+                                <a href="https://jeffkorby.github.io/Password-Generator/" class="password"></a>
+                                <img src="./assets/images/passwordgenscreenshot.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="card-content is-centered">
+                            <div class="content is-centered">
+                                When the app is run, you are given a series of prompts to generate a unique password given the paramaters and your choices.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://jeffkorby.github.io/Password-Generator/" class="password">DEPLOYED PASSWORD GENERATOR APP</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                    <div class="card column is-centered is-half">
+                        <div class="card-header">
+                            <p class="card-header-title is-centered">
+                                SCHEDULING APP
+                            </p>
+                        </div>
+                        <div class="card-image content content-is-centered">
+                            <figure class="image is-128x128 content is-centered mt-5">
+                                <a href="https://jeffkorby.github.io/Calendar-App/" class="scheduler"></a>
+                                <img src="./assets/images/schedulerappscreenshot.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="card-content is-centered">
+                            <div class="content is-centered">
+                                Created a scheduling app that allows the user to input data into the timeslots which are saved in local storage and retained when the page is refreshed.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://jeffkorby.github.io/Calendar-App/" class="comic-call">DEPLOYED SCHEDULING APP</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </container>
+    </section>
+
+    <section class="section has-background-info">
+        <container class="container has-background-info has-text-white">
+            <h2 id="contact" class="title has-text-centered py-3 has-text-white">Contact Me</h2>
+            <div class="columns is-full is-centered is-flex">
+                <div class="is-full columnn px-5 has-text-white">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <strong class="has-text-white">Email:  </strong><a href="mailto:korbyjef@gmail.com" class="has-text-white has-text-weight-bold">korbyjef@gmail.com</a>
+                </div>
+                <div class="is-full columnn px-5">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <strong class="has-text-white">Phone:  </strong><a href="tel:+12487670453" class="has-text-white has-text-weight-bold">248-767-0453</a>
+                </div>
+                <div class="is-full columnn px-5">
+                    <span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+                    <strong class="has-text-white"><a href="https://github.com/jeffkorby" class="has-text-white">Github</a></strong>
+                </div>
+                <div class="is-full columnn px-5">
+                    <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+                    <strong class="has-text-white"><a href="linkedin.com/in/jeffrey-korby" class="has-text-white">LinkedIn</a></strong>
+                </div> 
+            </div>               
+        </container>
+    </section>
+    <footer class="has-text-centered">
+        <div class="content">
+            <p>
+                <strong>Website created by: Jeff Korby</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
